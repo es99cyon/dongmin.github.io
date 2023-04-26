@@ -1,19 +1,20 @@
 import emoji from 'react-easy-emoji';
 
+
+// 소개
 export const greeting = {
 	username: '만나서 반갑습니다!!',
 	title: '안녕하세요!!',
 	subTitle: '풀스택으로 근무하다 프론트엔드로 지원하고 싶은 김동민 입니다. 잘부탁드립니다.',
 	role: "지원자 김동민 사이트입니다.",
 	resumeLink: "Your resume link... google drive or something else",
-	// IMPORTANT
-	// If you don't want to show this, change view to false. DO NOT DELETE!
+	
 	view: true
 };
 
+//소셜 링크
 export const socialMediaLinks = {
-	// IMPORTANT
-	// if you don't have, change value to blank or false!! DO NOT DELETE!
+
 	github: 'https://github.com/es99cyon',
 	linkedin: 'Your linkedin link',
 	email: 'ey1114s@gmail.com',
@@ -24,13 +25,10 @@ export const socialMediaLinks = {
 	stackoverflow: 'Your stackoverflow link'
 };
 
+// 스킬
 export const skills = {
 	title: emoji("I Can Do ⚡"),
 	subTitle: "subtitle for skill",
-
-	// IMPORTANT
-	// You need to find className for font-awesome icon
-	// Go to https://fontawesome.com/ and search icon
 	lists: [
 		{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 80},
 		{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 70},
@@ -42,6 +40,7 @@ export const skills = {
 	view: true
 };
 
+// 경력 
 export const experience = {
 	title: "Work Experience",
 	lists: [
@@ -58,12 +57,13 @@ export const experience = {
 	],
 	view: true
 }
-
+// 깃허브 프로젝트
 export const openSourceProjects = {
 	title: emoji("Open Source Projects 💻"),
 	view: true
 }
 
+// 회사 프로젝트
 export const projects = {
 	title: emoji("Projects 💻"),
 	subTitle: "subtitle for projects",
@@ -102,6 +102,7 @@ export const achievements = {
 	view: true
 };
 
+// 노션 및 깃허브 
 export const blogs = {
 	title: emoji("My Posts 📰"),
 	subTitle: "subtitle for posts",
