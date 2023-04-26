@@ -48,7 +48,7 @@ export const experience = {
 		{
 			date: "2021.07 ~ 2022.07",
 			company: "Memovie",
-			role: "Front-End Developer",
+			role: "Full Stack Developer",
 		},
 		{
 			date: "2018.07 ~ 2019.04",
