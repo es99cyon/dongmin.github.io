@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React/static/css/main.7a68ad9c.css",
+    "main.js": "/React/static/js/main.35ba0189.js",
+    "static/media/your photo.png": "/React/static/media/your photo.b3b2124089c98212ea10.png",
+    "static/media/sad-icon.png": "/React/static/media/sad-icon.b8e784ce2664093c60a9.png",
+    "index.html": "/React/index.html",
+    "main.7a68ad9c.css.map": "/React/static/css/main.7a68ad9c.css.map",
+    "main.35ba0189.js.map": "/React/static/js/main.35ba0189.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a68ad9c.css",
+    "static/js/main.35ba0189.js"
+  ]
+}
