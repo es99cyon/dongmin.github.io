@@ -5,10 +5,9 @@ import emoji from 'react-easy-emoji';
 export const greeting = {
 	username: '만나서 반갑습니다!!',
 	title: '안녕하세요!!',
-	subTitle: '풀스택으로 근무하다 프론트엔드로 지원하고 싶은 김동민 입니다. 잘부탁드립니다.',
+	subTitle: '백엔드 개발자에서 프론트엔드로 전향을 원하는 김동민 입니다. 잘부탁드립니다.',
 	role: "지원자 김동민 사이트입니다.",
-	resumeLink: "Your resume link... google drive or something else",
-	
+	resumeLink: "Your resume link... google drive or something else",	
 	view: true
 };
 
@@ -125,5 +124,11 @@ export const contactInfo = {
 	title: "Contact To Me! 📞",
 	subTitle: "김동민님의 연락처",
 	introduce: emoji("010-4200-0766❤"),
+	view: true
+}
+
+export const tests = {
+	title: emoji("Projectsdd 💻"),
+	subTitle: "subtitle for projects",
 	view: true
 }
