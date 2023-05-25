@@ -10,7 +10,7 @@ import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Experience from './Experience/Experience';
 import Project from './Project/Project';
-import { greeting, skills, experience, openSourceProjects, projects, blogs, contactInfo } from '../portfolio';
+import { greeting, skills, experience, openSourceProjects, projects, blogs, contactInfo, tests  } from '../portfolio';
 
 function Main() {
 	return (
@@ -21,7 +21,6 @@ function Main() {
 			{experience.view && <Experience />}
 			{openSourceProjects.view && <OpenSource />}
 			{projects.view && <Project />}
-			
 			{blogs.view && <Blog />}
 			{contactInfo.view && <Contact />}
 			<Footer />
