@@ -7,7 +7,7 @@ export const greeting = {
 	title: '안녕하세요!!',
 	subTitle: '백엔드 개발자에서 프론트엔드로 전향을 원하는 김동민 입니다. 잘부탁드립니다.',
 	role: "지원자 김동민 사이트입니다.",
-	resumeLink: "Your resume link... google drive or something else",	
+
 	view: true
 };
 
@@ -15,13 +15,7 @@ export const greeting = {
 export const socialMediaLinks = {
 
 	github: 'https://github.com/es99cyon',
-	linkedin: 'Your linkedin link',
 	email: 'ey1114s@gmail.com',
-	facebook: 'Your facebook link',
-	twitter: "Your twitter link",
-	instagram: "Your instagram link",
-	medium: 'Your medium link',
-	stackoverflow: 'Your stackoverflow link'
 };
 
 // 스킬
@@ -46,7 +40,7 @@ export const experience = {
 		{
 			date: "2021.07 ~ 2022.07",
 			company: "Memovie",
-			role: "Full Stack Developer",
+			role: "Back-end Developer",
 		},
 		{
 			date: "2018.07 ~ 2019.04",
@@ -80,26 +74,6 @@ export const projects = {
 	],
 	view: true
 }
-
-export const achievements = {
-	title: emoji("Achievements And Certifications 🏆"),
-	subTitle: "subtitle for achievement",
-	lists: [
-		{
-			img: require("./assets/sad-icon.png"),
-			alt: "I'm sad..",
-			title: "There is no Achievement...😥",
-			desc: "I'll try harder!"
-		},
-		{
-			img: require("./assets/sad-icon.png"),
-			alt: "I'm sad..",
-			title: "There is no Certification...😥",
-			desc: "I'll try harder!"
-		},
-	],
-	view: true
-};
 
 // 노션 및 깃허브 
 export const blogs = {
