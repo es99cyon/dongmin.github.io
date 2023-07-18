@@ -7,7 +7,7 @@ function Achievement() {
     return (
         <section className="section--achievement" id="achievement">
             <div className="inner">
-
+                
                 <div className="achieve-title">
                     <p>{achievements.title}</p>
                 </div>
